@@ -23,7 +23,7 @@ foreach(KeyValuePair<string,string> pair in values)
 
 Console.WriteLine(values["access_token"]);
 // We can now access the blob
-string applicationUri = "https://appstore500505.blob.core.windows.net/data/script.sql";
+string applicationUri = "https://anishstorage786.blob.core.windows.net/anishcontainer/AZ-900.txt";
 HttpClient httpClientStorage = new HttpClient();
 httpClientStorage.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", values["access_token"]);
 httpClientStorage.DefaultRequestHeaders.Add("x-ms-version", "2017-11-09");
